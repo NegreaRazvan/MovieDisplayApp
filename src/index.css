@@ -48,32 +48,6 @@
     }
 }
 
-@layer components {
-
-/*    .trending {*/
-
-/*        & ul {*/
-/*            @apply flex flex-row overflow-y-auto gap-5 -mt-10 w-full hide-scrollbar;*/
-/*        }*/
-
-/*        & ul li {*/
-/*            @apply min-w-[230px] flex flex-row items-center;*/
-/*        }*/
-
-/*        & ul li p {*/
-/*            @apply fancy-text mt-[22px] text-nowrap;*/
-/*        }*/
-
-/*        & ul li img {*/
-/*            @apply w-[127px] h-[163px] rounded-lg object-cover -ml-3.5;*/
-/*        }*/
-/*    }*/
-
-
-/*    }*/
-
-}
-
 @utility text-gradient {
     @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
 }
